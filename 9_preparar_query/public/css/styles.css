@@ -3,14 +3,25 @@
     margin: 0;
 }
 
+.all-body {
+    background-image: url(/img/wallpaper.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
 h1 {
     text-align: center;
+    color: #FFf;
 }
 
 .form,
 .books-container {
     width: 450px;
     margin: 0 auto;
+    color: #fff;
 }
 
 .form-control {
@@ -28,7 +39,9 @@ h1 {
     padding: 5px;
 }
 
+
 /* BOOKS  */
+
 
 .books-container div {
     border-bottom: 1px solid #ccc;
@@ -42,7 +55,7 @@ h1 {
 
 .a-dec {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .a-dec:hover {
@@ -51,7 +64,9 @@ h1 {
 
 
 #navbar {
-    border-bottom: 1px solid #ccc;
+    background-color: #000;
+    border-bottom: 1px solid #000;
+    opacity: .5;
     padding: 1em;
     margin-bottom: 1em;
 }
@@ -70,11 +85,13 @@ h1 {
 
 #navbar ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    opacity: 100;
 }
 
 #navbar ul li a:hover {
     color: #343434;
+    opacity: 100;
 }
 
 /* BOOK */
@@ -84,6 +101,7 @@ h1 {
 
 #book-page .container {
     text-align: center;
+    color: #fff;
 }
 
 .actions {
@@ -95,7 +113,7 @@ h1 {
 .actions a {
     margin-right: 1em;
     text-decoration: none;
-    color: rgb(133, 80, 80);
+    color: #ffffff99
 }
 
 .actions a:hover {
