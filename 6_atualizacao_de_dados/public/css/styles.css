@@ -1,0 +1,100 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form,
+.books-container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .3em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
+.form-control input {
+    padding: 5px;
+}
+
+/* BOOKS  */
+
+.books-container div {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.a-dec {
+    text-decoration: none;
+    color: #000;
+}
+
+.a-dec:hover {
+    color: #414141;
+}
+
+
+#navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar ul li {
+    margin-left: 1em;
+
+}
+
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar ul li a:hover {
+    color: #343434;
+}
+
+/* BOOK */
+#book-page {
+    padding: 2em;
+}
+
+#book-page .container {
+    text-align: center;
+}
+
+.actions {
+    margin-top: 1em;
+}
+
+.actions a {
+    text-decoration: none;
+    color: rgb(133, 80, 80);
+}
+
+.actions a:hover {
+    color: rgb(84, 64, 64);
+}
